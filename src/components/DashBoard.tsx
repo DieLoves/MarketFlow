@@ -59,6 +59,10 @@ const data = {
 					url: '#',
 				},
 				{
+					title: 'Задачи',
+					url: '/tasks',
+				},
+				{
 					title: 'Списки',
 					url: '#',
 				},
