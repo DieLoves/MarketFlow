@@ -26,7 +26,7 @@ export default function Page() {
 		<div className=''>
 			<h1 className='text-4xl md:text-3xl text-center mb-3'>
 				Спросите что-нибудь, и мы найдем ответ с помощью{' '}
-				<strong>MarketFlow</strong>
+				<strong>MarketFlow AI</strong>
 			</h1>
 			<div className='flex justify-center items-center mb-5 px-5 md:w-full'>
 				<PlaceholdersAndVanishInput
