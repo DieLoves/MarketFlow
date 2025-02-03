@@ -14,7 +14,6 @@ import {
 	SidebarTrigger,
 } from '@/components/ui/sidebar';
 import { Metadata } from 'next';
-
 export const metadata: Metadata = {
 	title: 'DashBoard',
 };
