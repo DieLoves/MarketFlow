@@ -23,7 +23,7 @@ export default function Page() {
 	};
 
 	return (
-		<div className=''>
+		<div className='overflow-y-hidden'>
 			<h1 className='text-4xl md:text-3xl text-center mb-3'>
 				Спросите что-нибудь, и мы найдем ответ с помощью{' '}
 				<strong>MarketFlow AI</strong>
