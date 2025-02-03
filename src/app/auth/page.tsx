@@ -1,6 +1,7 @@
 import { GalleryVerticalEnd } from 'lucide-react';
 
 import { LoginForm } from '@/components/login-form';
+import { ChangeTheme } from '@/components/ui/change-theme';
 import Image from 'next/image';
 
 export default function LoginPage() {
@@ -14,6 +15,7 @@ export default function LoginPage() {
 						</div>
 						MarketFlow
 					</a>
+					<ChangeTheme />
 				</div>
 				<div className='flex flex-1 items-center justify-center'>
 					<div className='w-full max-w-xs'>
@@ -23,6 +25,8 @@ export default function LoginPage() {
 			</div>
 			<div className='relative hidden bg-muted lg:block'>
 				<Image
+					width={1280}
+					height={998}
 					src='/images/marketflow.png'
 					alt='Image'
 					className='absolute inset-0 h-full w-full object-cover dark:brightness-[0.2]'
