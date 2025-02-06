@@ -1,4 +1,5 @@
 'use client';
+import { AlertDialogDemo } from '@/components/alert-dialog';
 import { Component } from '@/components/ui/charts/line-chart';
 import { RadarChartComponent } from '@/components/ui/charts/radar-chart';
 import { RadialCharts } from '@/components/ui/charts/radial-chart';
@@ -24,6 +25,7 @@ export default function Page() {
 
 	return (
 		<div className='overflow-y-hidden'>
+			<AlertDialogDemo />
 			<h1 className='text-4xl md:text-3xl text-center mb-3'>
 				Спросите что-нибудь, и мы найдем ответ с помощью{' '}
 				<strong>MarketFlow AI</strong>

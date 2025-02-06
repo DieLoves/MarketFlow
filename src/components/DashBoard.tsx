@@ -76,6 +76,7 @@ const data = {
 			title: 'Статистика',
 			url: '#',
 			icon: ChartArea,
+			isActive: false,
 			items: [
 				{
 					title: 'Отчеты',
@@ -91,6 +92,7 @@ const data = {
 			title: 'Settings',
 			url: '#',
 			icon: Settings2,
+			isActive: false,
 			items: [
 				{
 					title: 'Основные',

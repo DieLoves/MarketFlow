@@ -1,5 +1,4 @@
 import { promises as fs } from 'fs';
-import { Metadata } from 'next';
 import Image from 'next/image';
 import path from 'path';
 import { z } from 'zod';
@@ -8,11 +7,6 @@ import { columns } from '@/app/tasks/components/columns';
 import { DataTable } from '@/app/tasks/components/data-table';
 import { UserNav } from '@/app/tasks/components/user-nav';
 import { taskSchema } from './data/schema';
-
-export const metadata: Metadata = {
-	title: 'Tasks',
-	description: 'A task and issue tracker build using Tanstack Table.',
-};
 
 // Simulate a database read for tasks.
 async function getTasks() {
